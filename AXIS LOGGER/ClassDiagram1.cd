@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AXIS_LOGGER.MAIN_FORM" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <AssociationLine Name="Device_1_Dialog" Type="AXIS_LOGGER.Device_1_Dialog">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.048" Y="-0.284" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Device_2_Dialog" Type="AXIS_LOGGER.Device_2_Dialog" ManuallyRouted="true">
+      <Path>
+        <Point X="6.906" Y="2.691" />
+        <Point X="6.906" Y="3.268" />
+        <Point X="7.5" Y="3.268" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.452" Y="-0.45" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>lr6f7r+f/3T//x+FV5/3x+d+nfx6nwz31q//f83zjUM=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Device_1_Dialog" />
+      <Property Name="Device_2_Dialog" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AXIS_LOGGER.Device_1_Dialog" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABgAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Device_1_Dialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AXIS_LOGGER.Device_2_Dialog" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Device_2_Dialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AXIS_LOGGER.Program" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MAIN_FORM" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TC08example.Imports" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <AssociationLine Name="MAIN_FORM" Type="AXIS_LOGGER.MAIN_FORM">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.223" Y="0.039" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAABAEAIAIIAAAAAgAAAAAAKAAAA=</HashCode>
+      <FileName>TC08Imports.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MAIN_FORM" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
